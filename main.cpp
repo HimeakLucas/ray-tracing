@@ -26,3 +26,5 @@ int main() {
 
     std::clog << "\rDone.                   \n";
 }
+
+// TO OUTPUT THE IMAGE: ./ray_tracer > ../output.ppm 
