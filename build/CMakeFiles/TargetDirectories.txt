@@ -1,0 +1,3 @@
+/home/lucas/dev/ray-tracing/build/CMakeFiles/ray_tracer.dir
+/home/lucas/dev/ray-tracing/build/CMakeFiles/edit_cache.dir
+/home/lucas/dev/ray-tracing/build/CMakeFiles/rebuild_cache.dir
