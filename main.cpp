@@ -1,5 +1,8 @@
 #include <iostream>
 
+#include "color.h"
+#include "vec3.h"
+
 int main() {
 
     int image_width = 256;
@@ -13,14 +16,10 @@ int main() {
 
             auto r = double(i) / (image_width - 1);
             auto g = double(j) / (image_height - 1);
-            auto b = 0;
+            auto b = 1;
 
-            int ir = int(255.999 * r);
-            int ig = int(255.999 * g);
-            int ib = int(255.999 * b);
-
-            std::cout << ir << ' ' << ig << ' ' << ib << '\n';
-
+            color pixel_color = color(r, g, b);
+            write_color(std::cout, pixel_color);
         }
     }
 
